@@ -12,7 +12,7 @@
   <a href="https://t.me/nexus_ai_ru_bot"><img src="https://img.shields.io/badge/Бот%20доступа-@nexus__ai__ru__bot-blueviolet?style=for-the-badge&logo=telegram" alt="Bot" /></a>
   <img src="https://img.shields.io/badge/База-Google%20Antigravity%202.32%2B-8A2BE2?style=for-the-badge" alt="Base" />
   <img src="https://img.shields.io/badge/Аккаунты-Поддержка%20РФ-2ea44f?style=for-the-badge" alt="Accounts" />
-  <img src="https://img.shields.io/badge/Платформа-Windows%20x64-0078D6?style=for-the-badge&logo=windows" alt="Platform" />
+  <img src="https://img.shields.io/badge/ОС-Windows%20%7C%20Linux-0078D6?style=for-the-badge&logo=linux" alt="Platform" />
 </p>
 
 ---
@@ -31,13 +31,15 @@
 
 ### 🚀 Статус проекта: Закрытое тестирование (Early Access)
 
-Сейчас сборка проходит этап закрытого тестирования для проверки стабильности авторизации на различных конфигурациях Windows.
+Сейчас сборка проходит этап закрытого тестирования:
+* **Windows (x64):** стабильная тестовая сборка `NEXUS_IDE_Ultimate_Setup.exe` уже готова и доступна участникам.
+* **Linux (AppImage / DEB):** финальная упаковка и тестирование под популярные дистрибутивы (Ubuntu, Debian, Fedora, Arch).
 
-Публичный установщик появится здесь в релизах сразу после завершения текущей тестовой волны.
+Публичные релизы появятся здесь сразу после завершения текущей волны тестирования.
 
 > 🎁 **Хотите протестировать работу Antigravity под своим аккаунтом прямо сейчас?**  
 > 1. Вступайте в наш Telegram-чат: [**t.me/nexus_connect_beta**](https://t.me/nexus_connect_beta) — напишите в группу, и автор лично выдаст сборку и тестовый ключ.  
-> 2. Или запросите доступ в официальном боте: [**@nexus_ai_ru_bot**](https://t.me/nexus_ai_ru_bot).
+> 2. Или запросите доступ в официальном боте: [**@nexus_connect_support_bot**](https://t.me/nexus_connect_support_bot) (команды `/ide` для Windows или `/ide linux` для Linux).
 
 ---
 
@@ -58,12 +60,19 @@
 
 ### 📖 Быстрый старт (для участников закрытого теста)
 
-1. Получите установщик `NEXUS_IDE_Ultimate_Setup.exe` в нашем Telegram-чате [**t.me/nexus_connect_beta**](https://t.me/nexus_connect_beta).
+#### Windows
+1. Получите установщик `NEXUS_IDE_Ultimate_Setup.exe` в нашем Telegram-чате [**t.me/nexus_connect_beta**](https://t.me/nexus_connect_beta) или отправьте команду `/ide` боту [@nexus_connect_support_bot](https://t.me/nexus_connect_support_bot).
 2. Запустите инсталлятор и дождитесь завершения установки (меньше минуты).
 3. Запустите ярлык **NEXUS IDE Ultimate** с Рабочего стола — программа сразу откроет главное меню.
 4. Откройте панель настроек в верхнем углу, введите выданный ключ доступа и нажмите **«Включить»**.
 5. Нажмите **«Войти в аккаунт»** (или перейдите в `Settings → Account → Sign In`) и авторизуйтесь под своим аккаунтом.
 6. Открывайте проект и работайте в привычном интерфейсе Antigravity.
+
+#### Linux
+1. Получите пакет `NEXUS_IDE_Ultimate.AppImage` через команду `/ide linux` в боте [@nexus_connect_support_bot](https://t.me/nexus_connect_support_bot) или в чате бета-теста.
+2. Сделайте файл исполняемым: `chmod +x NEXUS_IDE_Ultimate.AppImage`.
+3. Запустите `./NEXUS_IDE_Ultimate.AppImage`.
+4. Активируйте ключ в верхнем меню и авторизуйтесь под своим Google-аккаунтом.
 
 ---
 
