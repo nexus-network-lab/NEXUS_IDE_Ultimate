@@ -1,0 +1,11 @@
+# Temporary and cache files
+*.tmp
+*.log
+*.bak
+Thumbs.db
+.DS_Store
+
+# Binaries and installers
+*.exe
+*.zip
+*.7z
