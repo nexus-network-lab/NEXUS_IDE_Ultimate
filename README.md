@@ -68,11 +68,28 @@
 5. Нажмите **«Войти в аккаунт»** (или перейдите в `Settings → Account → Sign In`) и авторизуйтесь под своим аккаунтом.
 6. Открывайте проект и работайте в привычном интерфейсе Antigravity.
 
-#### Linux
-1. Получите пакет `NEXUS_IDE_Ultimate.AppImage` через команду `/ide linux` в боте [@nexus_connect_support_bot](https://t.me/nexus_connect_support_bot) или в чате бета-теста.
-2. Сделайте файл исполняемым: `chmod +x NEXUS_IDE_Ultimate.AppImage`.
-3. Запустите `./NEXUS_IDE_Ultimate.AppImage`.
-4. Активируйте ключ в верхнем меню и авторизуйтесь под своим Google-аккаунтом.
+#### Linux (x64)
+1. Получите архив `NEXUS_IDE_Linux_x64.tar.gz` через команду `/ide linux` в боте [@nexus_connect_support_bot](https://t.me/nexus_connect_support_bot).
+2. Откройте терминал (`Ctrl + Alt + T`) и перейдите в папку загрузок:
+   ```bash
+   cd ~/Загрузки || cd ~/Downloads
+   ```
+3. Распакуйте архив **строго через терминал** (чтобы сохранились права на запуск) и перейдите в папку:
+   ```bash
+   tar -xzf NEXUS_IDE_Linux_x64.tar.gz
+   cd Antigravity-x64
+   ```
+4. Установите системные библиотеки для движка (делается 1 раз):
+   * **Ubuntu / Debian / Mint:** `sudo apt update && sudo apt install -y libnss3 libasound2t64 || sudo apt install -y libnss3 libasound2`
+   * **Fedora / RHEL:** `sudo dnf install -y nss alsa-lib`
+   * **Arch / Manjaro:** `sudo pacman -S --needed nss alsa-lib`
+5. Запустите IDE:
+   ```bash
+   ./run-nexus-ide.sh
+   ```
+   *(Если возникнет `Permission denied`: `chmod +x antigravity chrome-sandbox chrome_crashpad_handler run-nexus-ide.sh resources/bin/language_server resources/bin/.msrt/language_server_linux_rt.dat *.so* && ./run-nexus-ide.sh`)*
+6. Получите персональный тестовый ключ на 1 месяц командой `/key` в боте [@nexus_connect_support_bot](https://t.me/nexus_connect_support_bot) и активируйте при первом запуске.
+7. Войдите в Google-аккаунт (`login here` на верхней плашке или `Settings → Account → Sign In`). Если уже включён системный VPN в режиме TUN, прокси внутри IDE включать не нужно.
 
 ---
 
