@@ -8,8 +8,8 @@
 ### Модифицированная сборка Antigravity с поддержкой российских аккаунтов
 
 <p align="left">
-  <a href="https://t.me/nexus_connect_beta"><img src="https://img.shields.io/badge/Telegram-Чат%20раннего%20доступа-2CA5E0?style=for-the-badge&logo=telegram" alt="Telegram" /></a>
-  <a href="https://t.me/nexus_ai_ru_bot"><img src="https://img.shields.io/badge/Бот%20доступа-@nexus__ai__ru__bot-blueviolet?style=for-the-badge&logo=telegram" alt="Bot" /></a>
+  <a href="https://t.me/nexus_connect_beta"><img src="https://img.shields.io/badge/Telegram-Чат%20проекта-2CA5E0?style=for-the-badge&logo=telegram" alt="Telegram" /></a>
+  <a href="https://t.me/nexus_connect_support_bot"><img src="https://img.shields.io/badge/Скачать%20в%20боте-@nexus__connect__support__bot-blueviolet?style=for-the-badge&logo=telegram" alt="Bot" /></a>
   <img src="https://img.shields.io/badge/База-Google%20Antigravity%202.32%2B-8A2BE2?style=for-the-badge" alt="Base" />
   <img src="https://img.shields.io/badge/Аккаунты-Поддержка%20РФ-2ea44f?style=for-the-badge" alt="Accounts" />
   <img src="https://img.shields.io/badge/ОС-Windows%20%7C%20Linux-0078D6?style=for-the-badge&logo=linux" alt="Platform" />
@@ -29,17 +29,16 @@
 
 ---
 
-### 🚀 Статус проекта: Закрытое тестирование (Early Access)
+### 🚀 Статус проекта: Открытое бета-тестирование
 
-Сейчас сборка проходит этап закрытого тестирования:
-* **Windows (x64):** стабильная тестовая сборка `NEXUS_IDE_Ultimate_Setup.exe` уже готова и доступна участникам.
-* **Linux (AppImage / DEB):** финальная упаковка и тестирование под популярные дистрибутивы (Ubuntu, Debian, Fedora, Arch).
+Мы делаем рабочий инструмент для разработчиков и открыто делимся им с сообществом, чтобы вместе обкатать и довести сборку до идеала:
+* **Windows (x64):** установщик `NEXUS_IDE_Ultimate_Setup.exe` готов и доступен в боте.
+* **Linux (x64):** архив `NEXUS_IDE_Linux_x64.tar.gz` готов и доступен в боте (Ubuntu, Debian, Mint, Fedora, Arch).
 
-Публичные релизы появятся здесь сразу после завершения текущей волны тестирования.
-
-> 🎁 **Хотите протестировать работу Antigravity под своим аккаунтом прямо сейчас?**  
-> 1. Вступайте в наш Telegram-чат: [**t.me/nexus_connect_beta**](https://t.me/nexus_connect_beta) — напишите в группу, и автор лично выдаст сборку и тестовый ключ.  
-> 2. Или запросите доступ в официальном боте: [**@nexus_connect_support_bot**](https://t.me/nexus_connect_support_bot) (команды `/ide` для Windows или `/ide linux` для Linux).
+> 💡 **Как попробовать прямо сейчас:**  
+> 1. Откройте бота [**@nexus_connect_support_bot**](https://t.me/nexus_connect_support_bot) и скачайте сборку командой `/ide` (Windows) или `/ide linux` (Linux).  
+> 2. Возьмите бесплатный персональный ключ на 1 месяц командой `/key` (нужен для защиты сборки от спама и учёта участников теста; по истечении месяца можно обновить через автора в чате).  
+> 3. Заходите в наш чат [**t.me/nexus_connect_beta**](https://t.me/nexus_connect_beta) — там мы собираем обратную связь и помогаем с запуском.
 
 ---
 
@@ -95,5 +94,6 @@
 
 ### 💬 Сообщество и Обратная связь
 
-* 👥 **Telegram-чат тестеров:** [t.me/nexus_connect_beta](https://t.me/nexus_connect_beta)
-* 🤖 **Бот магазина и поддержки:** [@nexus_ai_ru_bot](https://t.me/nexus_ai_ru_bot)
+* 👥 **Telegram-чат проекта:** [t.me/nexus_connect_beta](https://t.me/nexus_connect_beta)
+* 🤖 **Бот сборок и ключей:** [@nexus_connect_support_bot](https://t.me/nexus_connect_support_bot)
+* 🌐 **Если у вас нет стабильного VPN:** рабочий VPN можно подключить через [@nexus_ai_ru_bot](https://t.me/nexus_ai_ru_bot)
