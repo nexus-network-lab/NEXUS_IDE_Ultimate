@@ -94,6 +94,6 @@
 
 ### 💬 Сообщество и Обратная связь
 
+* 🧪 **Тестовый доступ и баг-репорты:** программы сейчас находятся в тестовом доступе. Если вы столкнулись с ошибкой или что-то работает не так — напишите саппорт-боту [@nexus_connect_support_bot](https://t.me/nexus_connect_support_bot) в ЛС (командой `/bug описание` или просто приложите скриншот / лог). Бот запишет проблему в базу и сразу передаст отчёт разработчику.
 * 👥 **Telegram-чат проекта:** [t.me/nexus_connect_beta](https://t.me/nexus_connect_beta)
-* 🤖 **Бот сборок и ключей:** [@nexus_connect_support_bot](https://t.me/nexus_connect_support_bot)
 * 🌐 **Если у вас нет стабильного VPN:** рабочий VPN можно подключить через [@nexus_ai_ru_bot](https://t.me/nexus_ai_ru_bot)
